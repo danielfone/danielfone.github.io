@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Handcrafted HTML for your reading pleasure -->
+
+  <head>
+    <meta charset="utf-8">
+    <title>Daniel Fone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/atom.xml" rel="alternate" title="Daniel Fone" type="application/atom+xml">
+    <link href="/favicon.png" rel="icon">
+    <!-- TODO: ditch GA one day for less intrusive analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41009873-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-41009873-1');
+</script>
+
+    <link href="/stylesheets/application.css" rel="stylesheet" />
+    <link href="/stylesheets/highlight.css" rel="stylesheet" />
+  </head>
+
+  <body>
+      <header>
+    <svg class="logo" version="1.0" xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 100 100">
+      <circle cx="50%" cy="50%" r="50" fill="#67AAF7" />
+    </svg>
+    <h1>Daniel Fone</h1>
+    <p class="description">Ruby/Rails Engineer</p>
+  </header>
+
+  <nav>
+    <div class="links">
+      <a href="/" class="">About Me</a> &middot;
+      <a href="/blog/archives/" class="">Articles</a> &middot;
+      <a href="/hire/" class="">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+<h1 id="hello-supabase">Hello Supabase!</h1>
+
+<article>
+
+  <h2 id="cv">CV</h2>
+
+  <p>After 15 years of consulting and contracting, it’s been a long time since I’ve submitted a CV. I’ve done enough hiring to know how quickly CVs get skimmed, so I’m going to bet it all on the covering letter. For a quick overview, <a href="https://www.linkedin.com/in/danielfone/">LinkedIn</a> is up-to-date-ish.</p>
+
+  <h2 id="cover-letter">Cover letter</h2>
+
+  <p>Hello!</p>
+
+  <p>I realise this is long, but given the async and remote nature of the job, I want to showcase my written communication upfront. I’ve formatted this in markdown for easy reading—feel free to paste it into a viewer like StackEdit. Alternatively, it’s published at <a href="https://daniel.fone.net.nz/hello-supabase/">https://daniel.fone.net.nz/hello-supabase/</a> for your reading convenience.</p>
+
+  <p>For the last 15 years, I’ve been consulting/contracting in technical lead roles across a variety of industries — medical science, telecommunications, logistics, finance — mostly in Australia and New Zealand. The majority of my work has been behind the scenes, but I’ve shared some of my thoughts and experiences publicly if you’d like a sense of my style:</p>
+
+  <ul>
+    <li>I have a <a href="https://daniel.fone.net.nz/">dusty old blog</a> with a couple of more recent musings on <a href="https://daniel.fone.net.nz/blog/2020/09/09/timing-safe-bcrypt-authentication-in-postgresql/">timing-safe bcrypt in postgresql</a> and why <a href="https://daniel.fone.net.nz/blog/2020/10/21/talking-typing-thinking-software-is-not-a-desk-job/">software is not a desk job</a>.</li>
+    <li>Pre-pandemic, I spoke at conferences on topics like the <a href="https://www.youtube.com/watch?v=UjdtH5gO_DQ">history of timekeeping</a> and <a href="https://www.youtube.com/watch?v=VmURvpUnLeQ">coding for failure</a>.</li>
+    <li>I’ve also organised and spoken regularly at our local Ruby meetup for the past decade, including talks like “A Tale of Two CTEs” (groan) and <a href="https://gist.github.com/danielfone/2b2a084c5cf8baa22d460b86a7e59f5f">Markov Chains in Postgres</a>.</li>
+  </ul>
+
+  <p>I’m always uncomfortable selling myself (maybe it’s a Kiwi thing) but I’ll go through the job description and give you my thoughts…</p>
+
+  <blockquote>
+    <p>You are: Someone with a proven track record of shipping developer-facing products from ideation to launch.</p>
+  </blockquote>
+
+  <p>I’ve certainly shipped products from ideation to launch, including some developer-facing ones. Most recently, I developed an internal API at a telco to abstract broadband provisioning. The underlying systems at the wholesaler were tortuously complex, so creating a simple and coherent REST API for the retailer was a deeply satisfying challenge.</p>
+
+  <p>The best win was in ‘meta-delivery’ though. When we started, other teams were informally documenting their APIs in Confluence. We wrote an OpenAPI spec for ours, used it for request and response validation, and set up a GitHub action to publish an HTML version. It was so much easier, by the time we left most other teams had adopted the approach themselves. I love when good ergonomics drag other developers into the pit of success with you.</p>
+
+  <p>Some of my best work came in the early days of the pandemic. While working with a <a href="https://rcpaqap.com.au/">medical quality assurance org</a>, COVID struck and we urgently needed to have a QA program for all the <a href="https://en.wikipedia.org/wiki/Rapid_antigen_test">RATs</a> that were being deployed worldwide. It would be too slow to update our main platform, so we formed a small team (myself, the CTO, a head scientist, a BA, and another dev) and starting living the agile dream — iterating rapidly through prototypes to production. Within 4 weeks, we developed a new QA program and a supporting Rails app. I even coauthored a <a href="https://www.sciencedirect.com/science/article/pii/S2352551720301426">journal article</a> on the project, and it turns out most of the RATs were not very effective at detecting COVID.</p>
+
+  <blockquote>
+    <p>Aligned with our Product Principles.</p>
+  </blockquote>
+
+  <p>The product principles resonate deeply with me. It’s easy to say, but I hope it comes through my writing. When I first used Supabase last year, I was so taken by the concept — managed postgres plus open-source systems as the backbone of your app — that I immediately gave an (uninformed but enthusiastic) talk on it. I think I’m now that supabase guy in our local meetup (or more accurately, the why-does-he-try-to-do-everything-in-Postgres guy).</p>
+
+  <blockquote>
+    <p>Experienced with 6+ years in relevant roles:</p>
+
+    <ul>
+      <li>~~As a product manager for a developer tools product,~~</li>
+      <li>As a developer with a keen sense of product.</li>
+    </ul>
+  </blockquote>
+
+  <p>I’ve spent <strong>20+ years as software developer</strong>, 99% of it building for the web, mostly Ruby/Rails/PostgreSQL, and more recently Typescript and friends. I’ve done some AWS wrangling, and lots of Heroku.</p>
+
+  <p>I’ve spent <strong>15 years consulting</strong>, building bespoke information systems for small business. Working closely with directors or managers has really honed my sense of ‘product’. When you write both the code and the invoices, you quickly learn what matters and what doesn’t. Many clients call me directly when they’re confused about the app, so I see how users hold things, and can apply that insight straight to the codebase.</p>
+
+  <p>Over the last <strong>6 years</strong>, I’ve led engineering teams of half a dozen, coordinating BA/QA/engineering/UX, and navigating the organizational dynamics of various clients.</p>
+
+  <blockquote>
+    <p>Deeply knowledgeable about how Supabase products work.</p>
+  </blockquote>
+
+  <p>To be honest, I’m superficially knowledgeable about how Supabase products work. I use Supabase, and some of the underlying tech I’ve used extensively. But compared to others, I can’t call my knowledge deep.</p>
+
+  <p>That said, to me this is the easiest thing to improve. It’s a delight when I get the time to deeply learn how something is designed, rather than just making something work and moving on. And it’s much easier when you can read the source!</p>
+
+  <blockquote>
+    <p>Possessing strong technical abilities and comfortable diving deep into a wide array of products. For instance, you might investigate how Realtime handles connection pooling one day and explore the implications of Postgres running in a browser the next.</p>
+  </blockquote>
+
+  <p>This is the most satisfying part of the job for me. I thrive on mental variety, which is why I’ve juggled multiple clients and projects simultaneously for so long. And I love diving deep.</p>
+
+  <p>A couple of quick stories… :)</p>
+
+  <ul>
+    <li>
+      <p>I worked on a project recording <a href="https://en.wikipedia.org/wiki/Electroencephalography">EEG</a> for epilepsy patients using <a href="https://epiminder.com/the-minder-system/">reversed cochlear implants</a>. I was building the web app, doing signal processing and visualisation features. By persistently chasing down things I didn’t understand, I eventually found a bug in the cochlear firmware. As someone far removed from firmware development, I was unreasonably proud.</p>
+    </li>
+    <li>
+      <p>I discovered a bug in pgcrypto while migrating authentication providers. Bcrypt hashes generated by the old application weren’t being matched by <code>crypt</code> in the database. We quickly devised a work-around for the migration, but I couldn’t let the issue go. Turns out there’s a lot of weird nuance in bcrypt versions: $2a$ vs $2b$ vs $2x$ etc. The app generated a version pgcrypto didn’t support, and instead of throwing an error, it returned garbage. I worked through the issue with the mailing list and managed to integrate the code to support the both versions. Sadly, this patch remains unmerged.</p>
+    </li>
+    <li>
+      <p>I lead a team building an analytics platform to review laboratory testing, but we struggled to understand the advanced statistics the scientists required. To bridge the gap, I started writing a manual explaining the statistical concepts from first principles, even though I didn’t fully understand them. Of course the first draft was full of errors, but by documenting it <em>precisely</em> but <em>incorrectly</em>, the pathologists could correct our misunderstandings in concrete ways. We iterated until we had a complete, accurate manual, which is now even used to train their junior scientists.</p>
+    </li>
+  </ul>
+
+  <blockquote>
+    <p>Obsessed with improving the developer experience.</p>
+  </blockquote>
+
+  <p>Having worked with so many different teams, I’ve seen how much impact DX has on a team’s output. When a team experiences high friction in achieving simple tasks, morale, productivity, and quality suffer. Great tooling creates happy teams, and happy teams create great products.</p>
+
+  <p>Even as I spend less time ‘on the tools,’ one of my favourite things is to spot an error in the exception tracker, fix the bug, resolve any issues it caused, and reach out to the user directly to say, ‘Hey, I noticed something went wrong—I’ve sorted it out for you.’</p>
+
+  <p>Also, I <em>am</em> a developer, so improving developer experience is just blatant self-interest!</p>
+
+  <h2 id="why-do-you-want-to-work-with-us">Why do you want to work with us?</h2>
+
+  <p>Honestly, even applying feels strange to me! I’ve been fiercely independent for such a long time now, the thought of being employed somewhere is unusual. But this opportunity really captured my imagination, and I’m keen to have a conversation. Here’s what appeals to me:</p>
+
+  <ol>
+    <li>
+      <p>The Product &amp; Company</p>
+
+      <ul>
+        <li>
+          <p>Supabase is very close to the product I’ve wished existed for years.</p>
+        </li>
+        <li>
+          <p>When I coach delivery teams, I emphasize (1) psychological safety and (2) retro. In my experience, everything else evolves from these. That’s the same kaizen mindset I see at Supabase: just get started and make continuous improvement part of the plan.</p>
+        </li>
+        <li>
+          <p>I want to work on something with a broader reach and more impact than the clients I’ve been working with.</p>
+        </li>
+        <li>
+          <p>And I want to do it without being tied to my desk. I love fully remote asynchronous work!</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>The Role</p>
+
+      <ul>
+        <li>Technical Product Manager is a role I’ve been considering for a while now. It aligns closely with what I already do, but this feels like a natural next step. Working with such talented people across a wide variety of cutting-edge technology is really the dream.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2 id="previous-oss">Previous OSS</h2>
+  <blockquote>
+    <p>Have you previously worked in Open Source? Tell us about it</p>
+  </blockquote>
+
+  <p>Not as much as I’d like, and more so in the past than recently.</p>
+
+  <ul>
+    <li>
+      <p>I’ve authored <a href="https://rubygems.org/profiles/danielfone">a couple of gems</a> that actually get used.</p>
+    </li>
+    <li>
+      <p>As mentioned, I tried to fix <a href="https://www.postgresql.org/message-id/flat/5B221EBB-03D5-4C3E-BD00-CF0FB4256825%40fone.net.nz">a bcrypt bug in pgcrypto</a>. Ultimately, I failed the gauntlet of the pg-hackers contribution cycle. In hindsight, maybe this is the system working as expected: random newbies shouldn’t be able to come along and change pgcrypto easily? When I get a chance I should come back to this with a simpler approach though, because as far as I’m aware the bug is still there, and the bare minimum fix should be straightforward.</p>
+    </li>
+    <li>
+      <p><a href="https://privatepassage.io/">privatepassage.io</a> was a personal experiment I released a while back, but it’s getting 600 uniques a month according to cloudflare. That reminds me, there used to be a subtle bug in Cloudflare Worker’s websocket implementation. I should check if it’s still there… 🤔</p>
+    </li>
+    <li>
+      <p>The usual miscellanea of small bug fixes and of half-finished ideas on GitHub: <a href="https://github.com/danielfone">https://github.com/danielfone</a></p>
+    </li>
+  </ul>
+
+  <h2 id="remote-experience">Remote experience</h2>
+  <blockquote>
+    <p>Have you had remote experience? How many years?</p>
+  </blockquote>
+
+  <p>99% remote for 13 years. Async is the bestsync.</p>
+
+  <h2 id="previous-founder">Previous Founder</h2>
+  <blockquote>
+    <p>Have you previously founded a company before? Tell us about it</p>
+  </blockquote>
+
+  <p>Not really — I’ve run my own consultancy for 15+ years, mostly just me, sometimes with others. I’ve also spent hundreds of hours on <a href="https://chessr.app/">chessr.app</a> which launched last year and so far has an ARR of (checks notes)… $66. 😂</p>
+
+  <h2 id="expected-rate">Expected Rate</h2>
+  <blockquote>
+    <p>Optionally let us know your expected salary / contracting rate (include “per hour/day/year” etc)</p>
+  </blockquote>
+
+  <p>I haven’t had a salary in 15 years!? At the moment, I charge $200 (NZD/AUD) per hour for most of my contracts. I’ve made $300k+ p.a. for the last few years doing consulting.</p>
+
+</article>
+</main>
+
+  <footer>
+    <p>
+      Written 2013&ndash;2024 by Daniel Fone
+      &middot;
+      Powered by
+      <a href="http://middlemanapp.com/">Middleman</a>
+      and
+      <a href="http://pages.github.com/">GitHub Pages</a>
+    </p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+
+  </body>
+
+</html>
