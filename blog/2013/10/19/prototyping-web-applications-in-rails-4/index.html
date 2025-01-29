@@ -224,9 +224,9 @@ but the rest is fairly straight forward.</p>
       </h4>
       <p>Don't write <code>rescue Exception => e</code>. Write <code>rescue => e</code> or better still, figure out exactly what you're trying to rescue and use <code>rescue OneError, AnotherError => e</code>.</p>
       <h4>
-        <a href="/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/">A better way to manage the Rails secret token</a>
+        <a href="/blog/2014/12/07/generating-unique-random-tokens/">Generating Unique, Random Tokens</a>
       </h4>
-      <p>Don't store secrets in your source control.</p>
+      <p>If you need a random, unique token, use <code>SecureRandom.uuid</code> (or <code>SecureRandom.urlsafe_base64</code> for something shorter).</p>
     <p>
       <small><a href="/blog/archives/">More posts</a></small>
     </p>
@@ -251,7 +251,7 @@ but the rest is fairly straight forward.</p>
 
   <footer>
     <p>
-      Written 2013&ndash;2024 by Daniel Fone
+      Written 2013&ndash;2025 by Daniel Fone
       &middot;
       Powered by
       <a href="http://middlemanapp.com/">Middleman</a>
